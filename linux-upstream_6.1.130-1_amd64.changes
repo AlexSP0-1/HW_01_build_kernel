@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Tue, 27 Jan 2026 23:29:57 +0300
+Date: Sun, 01 Feb 2026 16:35:37 +0300
 Source: linux-upstream
 Binary: linux-image-6.1.130 linux-libc-dev
 Built-For-Profiles: noudeb
@@ -17,14 +17,14 @@ Changes:
  .
    * Custom built Linux kernel.
 Checksums-Sha1:
- 0d438f03dfbaf01373e57ab205158c2aecd9c685 5886346 linux-image-6.1.130_6.1.130-1_amd64.deb
- 0aa8b4b50aba4888a5d7dfaec75ec08715dc5132 1316762 linux-libc-dev_6.1.130-1_amd64.deb
- e53b4d231c29925b8a2b3852d91db38be12c3e85 5808 linux-upstream_6.1.130-1_amd64.buildinfo
+ 49995061cf8c9883eb78626347c8d20ac429df0f 5885982 linux-image-6.1.130_6.1.130-1_amd64.deb
+ 71baff1a6c570786d7b32f06e4eb55f61e9c316e 1317326 linux-libc-dev_6.1.130-1_amd64.deb
+ 35c0332db03d0f5f83be4f8b2a3c8c3cc679103f 5808 linux-upstream_6.1.130-1_amd64.buildinfo
 Checksums-Sha256:
- 237ce8afada0c33df7e80b7d4348e221cb42bb6b192c53ee859b446a8cb52307 5886346 linux-image-6.1.130_6.1.130-1_amd64.deb
- 9ef460940f9cd61d644ec7a6b2d56027c2359e86f54b89e4f0ab037d4a27ea7a 1316762 linux-libc-dev_6.1.130-1_amd64.deb
- e9d8a2890f71ca6ad76ff48fdc51bf571b10cfff54877f522fea41557fa781a7 5808 linux-upstream_6.1.130-1_amd64.buildinfo
+ 480e375fcffdce6ff4b8ab60c3de19ec9ee69c9a29d2631ec597cd0554fb224a 5885982 linux-image-6.1.130_6.1.130-1_amd64.deb
+ 233d8712aff6448692dcfb0dabdff2ee694fb9ca2fcd2da7d049b9352ece974e 1317326 linux-libc-dev_6.1.130-1_amd64.deb
+ 6014ce1052c9a28926b7bea401e28d3703f95d907fdf5495846148b2a295e78e 5808 linux-upstream_6.1.130-1_amd64.buildinfo
 Files:
- 31321bd6739ca7cb110d2aaa8ba87619 5886346 kernel optional linux-image-6.1.130_6.1.130-1_amd64.deb
- 6d6dd6f3d317ab9cc023a1afd247d6eb 1316762 devel optional linux-libc-dev_6.1.130-1_amd64.deb
- ca4d4ea16d469955a463a568341ac720 5808 kernel optional linux-upstream_6.1.130-1_amd64.buildinfo
+ 05f2a9d5533c88601a9cbd3d2672c858 5885982 kernel optional linux-image-6.1.130_6.1.130-1_amd64.deb
+ 209311989d467b37348ecee3b67d3e38 1317326 devel optional linux-libc-dev_6.1.130-1_amd64.deb
+ 6a8f50082adae54e591de7e787bc55d2 5808 kernel optional linux-upstream_6.1.130-1_amd64.buildinfo
