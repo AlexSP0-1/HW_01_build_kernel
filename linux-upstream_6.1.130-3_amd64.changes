@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 18 Feb 2026 19:18:26 +0300
+Source: linux-upstream
+Binary: linux-headers-6.1.130 linux-image-6.1.130 linux-image-6.1.130-dbg linux-libc-dev
+Architecture: amd64
+Version: 6.1.130-3
+Distribution: bookworm
+Urgency: low
+Maintainer: root <root@Otus>
+Changed-By: root <root@Otus>
+Description:
+ linux-headers-6.1.130 - Linux kernel headers for 6.1.130 on amd64
+ linux-image-6.1.130 - Linux kernel, version 6.1.130
+ linux-image-6.1.130-dbg - Linux kernel debugging symbols for 6.1.130
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (6.1.130-3) bookworm; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ d387e81f9f6e96b24254e74142487ffd2f5ec863 8878264 linux-headers-6.1.130_6.1.130-3_amd64.deb
+ 238539db38e70a01f1e4cfd6ae321bdce3a98eff 809646376 linux-image-6.1.130-dbg_6.1.130-3_amd64.deb
+ 3c232a71296b269aa4536aa15f9a771d2f965551 62264528 linux-image-6.1.130_6.1.130-3_amd64.deb
+ 5c41f66cce2676b10aad372d0f0f9e3bf21c8383 1275428 linux-libc-dev_6.1.130-3_amd64.deb
+ 9bb7f0a87862a5abef129bd2dce39a51e6160c77 5527 linux-upstream_6.1.130-3_amd64.buildinfo
+Checksums-Sha256:
+ 489017476164399675f136b659a90638acbc6bfdad96919353f3b499a1ac03ad 8878264 linux-headers-6.1.130_6.1.130-3_amd64.deb
+ 9d1fbc158613ac433b7b5307ddfb652128f81e9a2c7a8edd54e768c2d4a52dbe 809646376 linux-image-6.1.130-dbg_6.1.130-3_amd64.deb
+ a3e920eef567d0cf987ee62e2522d12716d2ed201229d3aaba49dc42156e86aa 62264528 linux-image-6.1.130_6.1.130-3_amd64.deb
+ 3c68e664868eec4c8c7835a2a628fbda4f79a418d86a54686eb4cc9fd475aa24 1275428 linux-libc-dev_6.1.130-3_amd64.deb
+ e6025abc9adc7dcba8aff6a427914a4ed8271c1c15884ff1e068f6011e47a737 5527 linux-upstream_6.1.130-3_amd64.buildinfo
+Files:
+ c2defd741e4873ad451b438f24cd421a 8878264 kernel optional linux-headers-6.1.130_6.1.130-3_amd64.deb
+ 166bdf3612e185d4f0c9cd0b76d9b5de 809646376 debug optional linux-image-6.1.130-dbg_6.1.130-3_amd64.deb
+ b0e51a776994fef2a202c3003925de29 62264528 kernel optional linux-image-6.1.130_6.1.130-3_amd64.deb
+ 98378baccae7ce799fa1506fd7957a0d 1275428 devel optional linux-libc-dev_6.1.130-3_amd64.deb
+ 8367265606d4a8f76c1a2302dc0f2a84 5527 kernel optional linux-upstream_6.1.130-3_amd64.buildinfo
